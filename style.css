@@ -1,0 +1,98 @@
+                                        Header {
+                                            height: 50px;
+                                            position: fixed;
+                                        }
+                                        
+                                        * {
+                                            margin: 0;
+                                            padding: 0;
+                                        }
+                                        
+                                        nav,
+                                        ul,
+                                        li,
+                                        a {
+                                            list-style: none;
+                                            display: inline-block;
+                                            padding: 10px;
+                                            margin-top: -50px;
+                                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                            font-size: 1.4rem;
+                                            transition-duration: 700ms;
+                                        }
+                                        
+                                        nav {
+                                            margin-left: 400px;
+                                        }
+                                        
+                                        a:hover {
+                                            color: rgb(35, 194, 181);
+                                            cursor: pointer;
+                                            font-size: 1.5rem;
+                                            transition-duration: 700ms;
+                                            text-shadow: 20px 10px 7px red;
+                                            transition-duration: ease-out;
+                                        }
+                                        
+                                        .title {
+                                            font-family: tahoma;
+                                            margin-top: 70px;
+                                            margin-left: 20px;
+                                            color: #345;
+                                        }
+                                        
+                                        .imggomycode {
+                                            margin-top: 10px;
+                                            margin-left: 10px;
+                                            cursor: pointer;
+                                        }
+                                        
+                                        h2 {
+                                            border: 2px solid rgba(21, 197, 168, 0.815);
+                                            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                                            border-radius: 20px;
+                                            padding: 20px;
+                                            cursor: pointer;
+                                            margin-left: 500px;
+                                        }
+                                        
+                                        h2:hover {
+                                            background-color: #345;
+                                            transition-delay: 3s;
+                                            color: white;
+                                            border: 2px solid black;
+                                        }
+                                        
+                                        .table2 {
+                                            margin-left: 250px;
+                                        }
+                                        
+                                        .table1 {
+                                            margin-left: 50px;
+                                            font-size: 1.3rem;
+                                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                        }
+                                        
+                                        .td2 {
+                                            width: 500px;
+                                            height: 400px;
+                                        }
+                                        
+                                        .colon {
+                                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                            font-size: 1.3rem;
+                                            padding: 30px;
+                                            border-radius: 20px;
+                                            background-color: #1f1f1f;
+                                            color: rgb(131, 131, 131);
+                                            transition-duration: 600ms;
+                                            transition-delay: 0.2s;
+                                        }
+                                        
+                                        .colon:hover {
+                                            cursor: pointer;
+                                            background-color: rgb(126, 44, 44);
+                                            color: rgb(250, 248, 248);
+                                            transition-duration: 600ms;
+                                            font-size: 1.4em;
+                                        }
